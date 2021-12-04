@@ -17,8 +17,8 @@ public class PostUserRestClient {
 
             OutputStream os = con.getOutputStream();
             //The book we want to create in JSON format
-            String book = "{\"name\":\"Purab K\",\"job\":\"Programmer\"}";
-            os.write(book.getBytes());
+            String user = "{\"name\":\"Purab K\",\"job\":\"Programmer\"}";
+            os.write(user.getBytes());
             os.flush();
             os.close();
 
